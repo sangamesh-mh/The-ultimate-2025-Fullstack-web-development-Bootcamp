@@ -1,9 +1,13 @@
 let list = ['one', 'two', 'three', 'four'];
-typeof [list];
+// console.log(typeof [list]);
+// console.log(typeof list);
 //  o/p - ('object');
 
-typeof list;
+// console.log(typeof list);
 // o/p - ('object');
 
-Array.isArray(list);
+// let isArray = Array.isArray(list);
+// console.log(isArray);
+console.log(Array.isArray(list));
+
 // o/p - true;
