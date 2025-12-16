@@ -1,8 +1,8 @@
-const arr = ['zero', 'one', 'two', 'three', 'four', 'five'];
+/*const arr = ['zero', 'one', 'two', 'three', 'four', 'five'];
 for (let i = 0; i < arr.length; i++) {
   console.log(i);
   console.log(arr[i]);
-}
+}*/
 
 /*
 o/p -
@@ -20,9 +20,10 @@ o/p -
  five
 */
 
-for (let i = 0; i < arr.length; i++) {
+/*for (let i = 0; i < arr.length; i++) {
   console.log(i + ' ' + arr[i]);
 }
+*/
 
 /*
 O/P -
@@ -33,3 +34,17 @@ O/P -
 4 four
 5 five
 */
+
+/* for each loop */
+
+arr.forEach((num) => {
+  console.log(num);
+});
+
+/* o/p -
+zero;
+one;
+two;
+three;
+four;
+five; */
