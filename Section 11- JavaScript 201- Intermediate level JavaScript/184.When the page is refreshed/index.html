@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>185.when the page is refreshed</title>
+  </head>
+  <body>
+    <h1>185. when the page is refreshed</h1>
+
+    <script>
+      window.onbeforeunload = function () {
+        // alert('the page is being refreshed');
+        console.log('you are refreshing a page');
+        return 'you are refreshing a page sangu!!!';
+      };
+    </script>
+  </body>
+</html>
